@@ -1,0 +1,5 @@
+module tb(clk_in,rst,key,hsync,vsync,ro,bo,go);
+	reg clk_in,rst;
+	reg [2:0] key,
+	wire hsync,vsync;
+	wire [3:0] ro,bo,go;
